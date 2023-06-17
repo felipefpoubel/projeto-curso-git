@@ -1,0 +1,10 @@
+mensagem_teste:
+  before_script:
+    - echo "Atualizando suas informações sobre o teste, aguarde..."
+
+  script:
+    - echo "Requerindo resto de informações, aguarde..."
+
+imagem_docker:
+  script:
+    - echo "construindo o build de sua aplicação, aguarde..."
